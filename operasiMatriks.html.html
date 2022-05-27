@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Tugas Struktur Data</title>
+    <h1 style="text-align: center;">TUGAS PENGURANGAN MATRIKS</h1>
+    <h3> Nama  : Annisa Laila Rahmawati </h3>
+    <h3> NIM   : E41200097 </h3>
+    <h3> Prodi : Teknik Informatika A </h3>
+<p> Operasi pengurangan matriks 2 dimensi dengan ukuran 3 x 3</p>
+	<script>
+
+        var matriksA = [[1, 5, 7],
+		[2, 6, 10],
+		[3, 8, 4],];
+        var matriksB = [[3, 10, 9],
+		[1, 16, 7],
+		[22, 19, 4],];
+        var total = [[0, 0, 0],[0, 0, 0],[0, 0, 0],];
+
+        document.write("<h3>Matriks A :</h3>");
+        for (a=0;a<matriksA.length;a++){
+            for(b=0;b<3;b++){
+                document.write(matriksA[a][b] + " ");
+            }
+            document.write("<br>");
+        }
+
+        document.write("<h3>Matriks B :</h3>");
+        for (a=0;a<matriksB.length;a++){
+            for(b=0;b<3;b++){
+                document.write(matriksB[a][b] + " ");
+            }
+            document.write("<br>");
+        }
+
+        document.write("<h3>Total Pengurangan Matriks :</h3>");
+        for(i=0; i<3; i++)
+        {
+            for(j=0; j<3; j++)
+            {
+                total[i][j] = matriksA[i][j] - matriksB[i][j];
+                document.write(total[i][j] +" ");
+            }
+            document.write("<br>");
+        }
+
+    </script>
+</head>
+<body>
+</body>
+</html>
