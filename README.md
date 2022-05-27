@@ -1,12 +1,10 @@
 # WorkFLow
-<br>
 Nama: Annisa Laila Rahmawati <br>
 NIM : E41200097<br>
 TIF A <br>
 Repositori ini saya buat untuk memenuhi tugas Literasi Digital <br>
 
 # Clone Repositori WorkFlow
-<br>
 Berikut ini langkah - langkahnya : <br>
 1. Membuat sebuah repositori dengan nama WorkFlow pada github.<br>
 2. Lakukan clonning repositori di gitbash dengan perintah  https://github.com/Annisa6780/WorkFLow.git <br>
@@ -17,19 +15,17 @@ Berikut ini langkah - langkahnya : <br>
 7. Ketikkan git push untuk mengupload di github
 
 # Membuat Branch dan Melakukan Marge
-<br>
 Berikut ini langkah - langkahnya : <br>
 1. Tambahkan sebuah branch dengan nama tampilan menggunakan perintah git checkout -b tampilan <br>
 2. Buat sebuah file yang bernama operasiMatriks.html pada branch tampilan dan ketikkan perintah git add . <br>
 3. Lalu ketikkan perintah git commit -m "Menambahkan file operasiMatriks.html" <br>
 4. Ketikkan git push --set-upstream origin tampilan <br> <br>
-Langkah - langkah untuk menggabungkan file operasiMatriks.html pada branch tampilan menuju branch main :
+Langkah - langkah untuk menggabungkan file operasiMatriks.html pada branch tampilan menuju branch main : <br>
 1. Pindah ke branch main dengan perintah git checkout main <br>
-2. Gabungkan file operasiMatriks.html dengan perintah git merge tampilan
+2. Gabungkan file operasiMatriks.html dengan perintah git merge tampilan <br>
 3. Ketikkan git push maka penggabungan branch sukses
 
 # Membuat release branch dan hotfix branch
-<br>
 Berikut ini langkah - langkahnya : <br>
 1. Gunakan perintah git checkout -b release/v1.0.0 <br>
 2. Ketikkan perintah git add . <br>
