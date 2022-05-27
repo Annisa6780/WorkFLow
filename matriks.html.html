@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Tugas Struktur Data</title>
+    <h1 style="text-align: center;">TUGAS INVERS MATRIKS</h1>
+    <h3> Nama  : Annisa Laila Rahmawati </h3>
+    <h3> NIM   : E41200097</h3>
+    <h3> Prodi : Teknik Informatika A </h3>
+<p> Operasi invers matriks 2 dimensi dengan ordo 2 x 2 </p>
+	<script>
+
+		var invers_matriks,determinan_matriksPQRS;
+		var z,x,c,v,h,y,m,f,g;
+		var matriksPQRS = [[2, 1],[6,4]];
+
+		document.write("<h3>Matriks PQRS :</h3>");
+		document.write("<ol>");
+		for (a=0;a<matriksPQRS.length;a++){
+			for(b=0;b<2;b++){
+				document.write(matriksPQRS[a][b] + " " );
+			}
+			document.write("<br>");
+		}
+		document.write("</ol>");
+
+        determinan_matriksPQRS=((matriksPQRS[0][0] * matriksPQRS[1][1]) - (matriksPQRS[0][1]*matriksPQRS[1][0]));
+        
+        document.write("Determinan matriks : "+ determinan_matriksPQRS);
+
+
+		z = matriksPQRS[1][1];
+		x = -1 * matriksPQRS[0][1];
+		c = -1 * matriksPQRS[1][0];
+		v = matriksPQRS[0][0];
+		h =	1/determinan_matriksPQRS;
+		document.write("<br>");
+		
+		y = h * z;
+		m = h * x;
+		f = h * c;
+		g = h * v;
+
+		var invers_matriks=[[y,m],[f,g]];
+
+		document.write("<h3>Invers dari Matriks PQRS :</h3>");
+		document.write("<ol>");
+		for (a=0;a<invers_matriks.length;a++){
+			for(b=0;b<2;b++){
+				document.write(invers_matriks[a][b] + " " );
+			}
+			document.write("<br>");
+		}
+		document.write("</ol>");
+		
+	</script>
+</head>
+<body>
+</body>
+</html>
