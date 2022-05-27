@@ -16,7 +16,7 @@ Berikut ini langkah - langkahnya : <br>
 6. Setelah berhasil, lakukan commit file dengan perintah git commit -m "menambahkan file matriks.html" <br>
 7. Ketikkan git push untuk mengupload di github
 
-#Membuat Branch dan Melakukan Marge
+# Membuat Branch dan Melakukan Marge
 <br>
 Berikut ini langkah - langkahnya : <br>
 1. Tambahkan sebuah branch dengan nama tampilan menggunakan perintah git checkout -b tampilan <br>
@@ -28,7 +28,7 @@ Langkah - langkah untuk menggabungkan file operasiMatriks.html pada branch tampi
 2. Gabungkan file operasiMatriks.html dengan perintah git merge tampilan
 3. Ketikkan git push maka penggabungan branch sukses
 
-#Membuat release branch dan hotfix branch
+# Membuat release branch dan hotfix branch
 <br>
 Berikut ini langkah - langkahnya : <br>
 1. Gunakan perintah git checkout -b release/v1.0.0 <br>
